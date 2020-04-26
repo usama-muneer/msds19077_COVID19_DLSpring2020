@@ -15,5 +15,22 @@ Our task is to fine-tune Fully Connected layers of ResNet-18 and VGG-16 pretrain
 ![](Results/resnet18_FC_Control_results.png)
 
 </br></br>
-```VGG-16 Results after find-tune FC Layers:```
+```VGG-16 Results after find-tune Classifier:```
 </br></br>
+![](Results/vgg16_FC_Only_curves.png)
+![](Results/vgg16_FC_Only_results.png)
+
+# Task 2: Fine-tune the CNN and FC layers of the network
+Our task is to fine-tune Fully Connected and classifier layers of ResNet-18 and VGG-16 pretrained models by unfreezing different layes then train model on given dataset. And the results are given blow:
+
+</br></br>
+```ResNet-18 Results after unfreezing all layers:```
+</br></br>
+![](Results/resnet18_entire_curves.png)
+![](Results/resnet18_entire_results.png)
+
+</br></br>
+```VGG-16 Results after unfreezing all layers:```
+</br></br>
+![](Results/vgg16_entire_curves.png)
+![](Results/vgg16_entire_results.png)
