@@ -34,3 +34,8 @@ Our task is to fine-tune Fully Connected and classifier layers of ResNet-18 and 
 </br></br>
 ![](Results/vgg16_entire_curves.png)
 ![](Results/vgg16_entire_results.png)
+
+# Trained Models for this dataset:
+You can fing the trained weights for this dataset using this link blow:
+</br>
+https://drive.google.com/open?id=1evAZB1c9GfsWA-uiVcbebyGkt-2oFxBa
