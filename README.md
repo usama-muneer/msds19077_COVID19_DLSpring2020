@@ -2,9 +2,7 @@
 This repository contains code and results for COVID-19 classification assignment by Deep Learning Spring 2020 course offered at Information Technology University, Lahore, Pakistan. This assignment is only for learning purposes and is not intended to be used for clinical purposes.
 
 # PART 1: Dataset
-Dataset used for this assignment can be found using link blow: 
-
-https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view?usp=sharing
+Dataset used for this assignment can be found using link blow: <a href="https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view?usp=sharing"></a>
 
 # Task 1: Load pretrained CNN model and fine-tune FC Layers
 Our task is to fine-tune Fully Connected layers of ResNet-18 and VGG-16 pretrained models by adding two custom layes and freezed other layer then train model on given dataset. And the results are given blow:
@@ -49,14 +47,12 @@ In this task we are performing multi-class, multi-label classification by implem
 # Experiment 1:
 ```ResNet-18 with Binary Cross Entropy loss with logistics:```
 ![](Results/resnet18-bce.png)
-</br></br>
+</br>
 ```Confusion Matrix for validation data```
 </br>
 ![](Results/resnet18-bce-CM-valid.png)
 
-</br>
 # Experiment 2:
-</br>
 ```VGG-16 with Binary Cross Entropy loss with logistics:```
 
 ![](Results/vgg16-bce.png)
@@ -65,9 +61,7 @@ In this task we are performing multi-class, multi-label classification by implem
 </br>
 ![](Results/vgg16-bce-CM-valid.png)
 
-</br>
 # Experiment 3:
-</br>
 ```ResNet-18 with Focal Loss:```
 
 ![](Results/resnet18-fl.png)
@@ -76,17 +70,14 @@ In this task we are performing multi-class, multi-label classification by implem
 </br>
 ![](Results/resnet18-fl-CM-valid.png)
 
-</br>
 # Experiment 4:
-</br>
 ```VGG-16 with Focal Loss:```
 
 ![](Results/vgg16-fl.png)
 </br>
 ```Confusion Matrix for validation data```
 </br>
-![](Results/vgg16-fl-CM-valid.png)
+![](Results/vgg16-fl-CM-valid1.png)
 
-<br>
 # Trained Model:
 Trained weights for this dataset can be found using this link:<a href="https://drive.google.com/open?id=1aTiVv7fDUqtbkrqM2e-LfjaTWkyfPu8d">Link</a>
