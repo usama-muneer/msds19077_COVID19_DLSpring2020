@@ -79,5 +79,10 @@ In this task we are performing multi-class, multi-label classification by implem
 </br>
 ![](Results/vgg16-fl-CM-valid1.png)
 
+# Comparison:
+```If we compare all model results then we can clearly see that VGG-16 with binary cross entropy with logistic loss give us good results. The best model and accuracy parameters for this task is```
+</br>
+![](Results/model-compare.png)
+
 # Trained Model:
 Trained weights for this dataset can be found using this link:<a href="https://drive.google.com/open?id=1aTiVv7fDUqtbkrqM2e-LfjaTWkyfPu8d">Link</a>
