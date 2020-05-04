@@ -42,14 +42,12 @@ Our task is to fine-tune Fully Connected and classifier layers of ResNet-18 and 
 <hr>
 
 # PART 2: Dataset
-<p>Dataset used for this assignment can be found using this link:</p>  <a href="https://github.com/HadiaIrshad/MSDS19016_COVID19_DLSpring2020/blob/master/README.md">Link </a>
-#Task:
-<p>In this task we are performing multi-class, multi-label classification by implementing focal loss for detecting infections such as COVID-19 among X-Ray images.</p>
+Dataset used for this assignment can be found using this link:  <a href="https://drive.google.com/file/d/1eytbwaLQBv12psV8I-aMkIli9N3bf8nO/view?usp=sharing">Link </a>
+# Task:
+In this task we are performing multi-class, multi-label classification by implementing focal loss for detecting infections such as COVID-19 among X-Ray images.
 
 # Experiment 1:
-</br>
 ```ResNet-18 with Binary Cross Entropy loss with logistics:```
-
 ![](Results/resnet18-bce.png)
 </br></br>
 ```Confusion Matrix for validation data```
